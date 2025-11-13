@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dissipative Quantum Hydrodynamics: A Symmetric Interaction Between QM and GR</title>
+    <meta name="description" content="A novel thermodynamic framework unifying quantum mechanics and general relativity through dissipative dynamics">
+    <meta name="keywords" content="quantum gravity, general relativity, quantum mechanics, thermodynamics, dissipative systems, Onsager-Prigogine">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+        
+        .author {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            opacity: 0.9;
+        }
+        
+        .date {
+            opacity: 0.7;
+            font-size: 0.95em;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .key-insight {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 4px;
+        }
+        
+        .key-insight h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .section {
+            margin: 30px 0;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        
+        .download-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            margin: 30px 0;
+            border-radius: 8px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            margin: 10px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        .highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .highlight-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-top: 3px solid #667eea;
+        }
+        
+        .highlight-card h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        .citation-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            margin: 20px 0;
+            border: 1px solid #dee2e6;
+        }
+        
+        .contact {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .equation {
+            text-align: center;
+            font-family: 'Times New Roman', serif;
+            font-size: 1.2em;
+            margin: 20px 0;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 4px;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        li {
+            margin: 8px 0;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dissipative Quantum Hydrodynamics:<br>A Symmetric Interaction Between QM and GR</h1>
+            <div class="author">J.W. Krol</div>
+            <div class="date">November 2025 • Revised v2</div>
+            <div style="margin-top: 20px;">
+                <span class="badge">Quantum Gravity</span>
+                <span class="badge">Thermodynamics</span>
+                <span class="badge">Dissipative Systems</span>
+            </div>
+        </header>
+        
+        <div class="content">
+            <div class="key-insight">
+                <h3>🔑 Central Insight</h3>
+                <p>Every physical system follows the universal Onsager-Prigogine framework: <strong>J = LX</strong>, where fluxes (<strong>J</strong>) respond to thermodynamic forces (<strong>X</strong>), producing entropy <strong>Ṡ ≥ 0</strong>.</p>
+                <p style="margin-top: 10px;"><strong>Standard QM and GR are special cases where Ṡ = 0.</strong> What happens when we allow fundamental dissipation?</p>
+            </div>
+            
+            <div class="section">
+                <h2>The Problem</h2>
+                <p>Quantum mechanics and general relativity are both experimentally confirmed but conceptually incompatible. For 50+ years, unification attempts have failed. Why?</p>
+                <p style="margin-top: 10px;"><strong>Because they all work within the conservative limit (Ṡ = 0), ignoring the arrow of time.</strong></p>
+            </div>
+            
+            <div class="section">
+                <h2>The Solution</h2>
+                <p>Add a single dissipative term to the Einstein-Hilbert action, coupling quantum current flow to spacetime curvature:</p>
+                
+                <div class="equation">
+                    S = ∫ [R/(16πG) + L<sub>fluid</sub> + L<sub>Q</sub> − λρ‖J‖<sup>m</sup>] √−g d⁴x
+                </div>
+                
+                <p>This creates a <strong>symmetric feedback loop</strong>:</p>
+                <ul>
+                    <li><strong>QM → GR:</strong> Quantum current sources curvature</li>
+                    <li><strong>GR → QM:</strong> Curvature redirects current</li>
+                    <li><strong>Result:</strong> Self-organizing vortices (particles) and curved spacetime (gravity)</li>
+                </ul>
+            </div>
+            
+            <div class="highlights">
+                <div class="highlight-card">
+                    <h3>🌀 Matter as Vortices</h3>
+                    <p>Particles emerge as topological vortices in the quantum flow with quantized circulation Γ = 2πnℏ/m</p>
+                </div>
+                
+                <div class="highlight-card">
+                    <h3>🔄 Entropy Flow</h3>
+                    <p>Spacetime acts as the entropy sink, with gravitational field absorbing dissipated energy</p>
+                </div>
+                
+                <div class="highlight-card">
+                    <h3>⏱️ Arrow of Time</h3>
+                    <p>Time direction emerges naturally as the direction of decreasing future transport cost</p>
+                </div>
+                
+                <div class="highlight-card">
+                    <h3>✅ Known Limits</h3>
+                    <p>Recovers Schrödinger equation (flat space) and Newtonian gravity with quantum corrections</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Key Results</h2>
+                <ul>
+                    <li><strong>No hierarchy:</strong> QM and GR remain co-equal; their interaction is physical</li>
+                    <li><strong>Testable predictions:</strong> Solar system tests constrain λ̃ ≲ 10⁻¹¹</li>
+                    <li><strong>Mathematical consistency:</strong> Well-posed initial value problem with stable evolution</li>
+                    <li><strong>Unified picture:</strong> Matter (bound vortices), radiation (decaying modes), dark energy (ground-state oscillation) from same framework</li>
+                </ul>
+            </div>
+            
+            <div class="download-section">
+                <h2 style="color: white; border: none; margin-bottom: 20px;">📄 Access the Paper</h2>
+                <a href="https://doi.org/10.6084/m9.figshare.30615254" class="btn" target="_blank">View on figshare</a>
+                <a href="https://figshare.com/articles/preprint/Dissipative_Quantum_Hydrodynamics_A_Symmetric_Interaction_Between_QM_and_GR_Revised_v2/30615254" class="btn" target="_blank">Download PDF</a>
+            </div>
+            
+            <div class="section">
+                <h2>Citation</h2>
+                <div class="citation-box">
+J.W. Krol (2025). Dissipative Quantum Hydrodynamics: A Symmetric Interaction Between QM and GR, Revised v2. figshare. Preprint. https://doi.org/10.6084/m9.figshare.30615254
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Why This Matters</h2>
+                <p>This framework suggests that:</p>
+                <ul>
+                    <li>The arrow of time is <strong>fundamental</strong>, not emergent</li>
+                    <li>Dissipation provides the <strong>natural coupling</strong> between QM and GR</li>
+                    <li>Previous unification attempts failed by working within the conservative limit</li>
+                    <li>Gravity and cosmological constant emerge from <strong>the same dissipative dynamics</strong></li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>Contents Overview</h2>
+                <ul>
+                    <li><strong>Section 1-3:</strong> Framework and field equations</li>
+                    <li><strong>Section 4-6:</strong> Symmetric interaction and conceptual balance</li>
+                    <li><strong>Section 7:</strong> Cosmological and observational implications</li>
+                    <li><strong>Appendix A:</strong> Recovery of Schrödinger equation</li>
+                    <li><strong>Appendix B:</strong> Newtonian limit with corrections</li>
+                    <li><strong>Appendix C:</strong> Observational bounds on parameters</li>
+                    <li><strong>Appendix D:</strong> Vortex solutions and particle interpretation</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="contact">
+            <h2 style="color: white; margin-bottom: 15px;">Get in Touch</h2>
+            <p>Questions, comments, or collaboration opportunities?</p>
+            <p style="margin-top: 10px;">Contact via figshare or through the discussion section on the preprint page.</p>
+        </div>
+    </div>
+</body>
+</html>
