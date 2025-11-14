@@ -2,6 +2,16 @@
 
 A thermodynamic framework unifying quantum mechanics and general relativity through dissipative dynamics.
 
+### 1. **Unification: The Missing Arrow of Time** (Start here!)
+A pedagogical introduction using only classical mechanics to explain why QM-GR unification must be dissipative.
+
+**Key argument:** Real systems have constraints → dissipation is unavoidable → QM and GR are both "free" theories → their unification must incorporate the arrow of time.
+
+📄 [Download PDF](arrow-of-time.pdf)
+
+### 2. **Dissipative Quantum Hydrodynamics** (Full technical framework)
+The complete relativistic framework implementing dissipative unification via modified Einstein-Hilbert action.
 **Paper:** [View on figshare](https://doi.org/10.6084/m9.figshare.30615254)
+
 
 **Website:** [https://jacqkrol.github.io/dissipative-quantum-gravity](https://jacqkrol.github.io/dissipative-quantum-gravity)
