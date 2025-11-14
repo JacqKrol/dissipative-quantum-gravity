@@ -11,6 +11,7 @@ A pedagogical introduction using only classical mechanics to explain why QM-GR u
 
 ### 2. **Dissipative Quantum Hydrodynamics** (Full technical framework)
 The complete relativistic framework implementing dissipative unification via modified Einstein-Hilbert action.
+
 **Paper:** [View on figshare](https://doi.org/10.6084/m9.figshare.30615254)
 
 
