@@ -14,5 +14,8 @@ The complete relativistic framework implementing dissipative unification via mod
 
 **Paper:** [View on figshare](https://doi.org/10.6084/m9.figshare.30615254)
 
+### 3. **Emergence of Planck Scales** (NEW - advanced)
+Shows that Planck scales and fundamental constants emerge from the EHK action itself
+📄 [Download PDF](planck.pdf)
 
 **Website:** [https://jacqkrol.github.io/dissipative-quantum-gravity](https://jacqkrol.github.io/dissipative-quantum-gravity)
